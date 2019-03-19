@@ -84,9 +84,9 @@ app.delete('/api/links/:id', (req, res) => {
   }
 })
 
-function sendStatus(res, statusCode) {
+/* function sendStatus(res, statusCode) {
   res.status(statusCode).send();
-}
+} */
 
 function isAliasAvailable(alias) {
   const aliases = getShortUrlByAlias(alias) || null;
@@ -182,10 +182,10 @@ function getShortUrlsNoSecret() {
   );
 }
 
-function generateSecretCode() {
+/* function generateSecretCode() {
   return `${getARandomNumber(0, 9)}${getARandomNumber(0, 9)}${getARandomNumber(0, 9)}${getARandomNumber(0, 9)}`;
-}
+} */
 
-function getARandomNumber(min, max) {
+/* function getARandomNumber(min, max) {
   return Math.random() * (max - min) + min;
-}
+} */
