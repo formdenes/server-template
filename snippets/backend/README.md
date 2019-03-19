@@ -2,7 +2,7 @@
 
 ## Utilities
 
-### sendStatus
+#### sendStatus
 
 ```js
 function sendStatus(res, statusCode) {
@@ -10,14 +10,14 @@ function sendStatus(res, statusCode) {
 }
 ```
 
-### randIntBetween
+#### randIntBetween
 ```js
 function randIntBetween(min, max) {
   return Math.floor(Math.random() * (max - min) + min);
 }
 ```
 
-### generateSecretCode
+#### generateSecretCode
 ```js
 function generateSecretCode() {
   return `${randIntBetween(0, 9)}${randIntBetween(0, 9)}${randIntBetween(0, 9)}${randIntBetween(0, 9)}`;
@@ -26,15 +26,15 @@ function generateSecretCode() {
 
 ## Responses
 
-### sendFile
+#### sendFile
 ```js
 res.sendFile(path.join(__dirname, './frontend-assets/index.html'));
 ```
-### redirect
+#### redirect
 ```js
 res.redirect(url);
 ```
-### send status and content as well
+#### send status and content as well
 ```js
 res.status(200).send(content);
 ```
