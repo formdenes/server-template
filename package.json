@@ -1,0 +1,30 @@
+{
+  "name": "server-template",
+  "version": "1.0.0",
+  "description": "1. run `npm init` 2. Set your database credentials in the `.env` file - now your database should work just fine 3.",
+  "main": "backend.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/formdenes/server-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/formdenes/server-template/issues"
+  },
+  "homepage": "https://github.com/formdenes/server-template#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0"
+  }
+}
