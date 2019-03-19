@@ -1,7 +1,7 @@
 {
   "name": "server-template",
   "version": "1.0.0",
-  "description": "1. run `npm init` 2. Set your database credentials in the `.env` file - now your database should work just fine 3.",
+  "description": "",
   "main": "backend.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
