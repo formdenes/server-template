@@ -9,6 +9,9 @@
 5. Feel free to check out the _snippets_ folder for additional code snippets.
 6. Bear in mind, that this is a mere spine of a server, you have to give it functionality.
 
+## Update notes
+* `backend.js` is now not async as Peter corrected
+
 
 <br>
 <br>
